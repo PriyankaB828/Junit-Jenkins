@@ -1,4 +1,4 @@
-
+package com.example;  
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,12 +8,12 @@ public class CalculatorTest {
 
     @Test
     void testAddition() {
-        assertEquals(8, calc.add(5, 5));
+        assertEquals(10, calc.add(5, 5));
     }
 
     @Test
     void testSubtraction() {
-        assertEquals(4, calc.subtract(5, 3));
+        assertEquals(2, calc.subtract(5, 3));
     }
 
     @Test
